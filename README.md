@@ -1,5 +1,6 @@
 # guessing game project
 The project is all about creating a game where a player will guess a winner number.  Between plays, the project will provide hints for higher and lower numbers
+<<<<<<< HEAD
 The Objective
 # The Objective
 Our objective for this project is to build a simple game where the user has to guess a secret number that is chosen at random. Upon making a guess, the user will receive a hint indicating if their guess is too small or too large. Below is an example of how the final product will play. We've denoted the user's input with *asterisks*. All other text is produced by the computer:
@@ -19,6 +20,10 @@ YOU WON.
 The Objective
 Our objective for this project is to build a simple game where the user has to guess a secret number that is chosen at random. Upon making a guess, the user will receive a hint indicating if their guess is too small or too large. Below is an example of how the final product will play. We've denoted the user's input with *asterisks*. All other text is produced by the computer:
 
+=======
+# The Objective
+Our objective for this project is to build a simple game where the user has to guess a secret number that is chosen at random. Upon making a guess, the user will receive a hint indicating if their guess is too small or too large. Below is an example of how the final product will play. We've denoted the user's input with *asterisks*. All other text is produced by the computer:
+>>>>>>> 595f474f81a8bb022432e6810a1ac4680098feb5
 Enter a max number: *20*
 Enter a min number: *11*
 I'm thinking of a number between 11 and 20...
@@ -109,3 +114,7 @@ Start by limiting the player to 5 attempts. You can accomplish this by initializ
 
 Limiting turns dynamically
 Make the limit dynamic by allowing the user to specify the number of attempts. We recommend creating an askLimit function that behaves similarly to askRange. Be sure to chain the callbacks in the right order to ensure the game is configured properly. For example, one valid callback chain order would be askLimit -> askRange -> askGuess. If you follow this order, you'll need to call askLimit in the global scope to begin the game.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 595f474f81a8bb022432e6810a1ac4680098feb5
